@@ -1,0 +1,17 @@
+#drawing-pad {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    background-color: black;
+    width: 1024px;
+    height: 1024px;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+.tile {
+    display: block;
+    flex: auto 0 0;
+    background-color: white;
+}
